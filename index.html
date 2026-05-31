@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Andressa Guimarães — Links</title>
+<meta name="description" content="Sua rotina deve servir aos seus sonhos. Método de produtividade, checklist gratuito, YouTube, livros e playlist de foco." />
+<meta property="og:title" content="Andressa Guimarães — Links" />
+<meta property="og:description" content="Sua rotina deve servir aos seus sonhos." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ivory:#FBF7F3; --blush:#F0DCD3; --rose:#B5687A; --rose-deep:#8E4F5E;
+    --wine:#5E3340; --gold:#C8A04E; --ink:#2E2630; --muted:#7C6E72;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Poppins',sans-serif;color:var(--ink);min-height:100vh;
+    background:
+      radial-gradient(60% 40% at 85% -5%, rgba(200,160,78,.12), transparent 70%),
+      radial-gradient(60% 45% at 0% 105%, rgba(181,104,122,.14), transparent 70%),
+      var(--ivory);
+    display:flex;justify-content:center;padding:2.4rem 1.1rem 3rem;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::after{content:"";position:fixed;inset:0;z-index:0;opacity:.35;pointer-events:none;
+    background-image:radial-gradient(rgba(94,51,64,.06) 1px,transparent 1px);background-size:22px 22px;}
+  .hub{width:100%;max-width:440px;position:relative;z-index:1;}
+
+  .head{text-align:center;margin-bottom:1.8rem;}
+  .avatar{
+    width:112px;height:112px;border-radius:50%;margin:0 auto .9rem;overflow:hidden;
+    border:3px solid #fff;box-shadow:0 16px 36px -16px rgba(94,51,64,.55);
+    background:linear-gradient(160deg,var(--blush),#F7ECE6);position:relative;
+  }
+  .avatar img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block;}
+  .avatar.noimg::after{content:"AG";position:absolute;inset:0;display:grid;place-items:center;
+    font-family:'Fraunces',serif;font-size:2rem;color:var(--rose-deep);}
+  .name{font-family:'Fraunces',serif;font-size:1.7rem;font-weight:600;color:var(--wine);}
+  .role{font-size:.82rem;color:var(--rose-deep);font-weight:500;letter-spacing:.02em;margin-top:.15rem;}
+  .tagline{font-family:'Fraunces',serif;font-style:italic;font-size:1rem;color:var(--muted);margin-top:.6rem;}
+
+  .links{display:flex;flex-direction:column;gap:.75rem;}
+  a.link{
+    display:block;text-decoration:none;color:var(--ink);background:#fff;
+    border:1px solid var(--blush);border-radius:16px;padding:.95rem 1.1rem;
+    box-shadow:0 10px 26px -22px rgba(94,51,64,.6);
+    transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    opacity:0;transform:translateY(14px);animation:rise .6s ease forwards;
+  }
+  a.link:hover{transform:translateY(-3px);box-shadow:0 16px 30px -20px rgba(94,51,64,.7);border-color:var(--rose);}
+  a.link .t{font-weight:600;font-size:.98rem;color:var(--wine);}
+  a.link .s{font-size:.8rem;color:var(--muted);margin-top:.1rem;}
+
+  /* botão destacado da isca */
+  a.featured{
+    background:linear-gradient(135deg,var(--rose),var(--rose-deep));border:none;
+    box-shadow:0 18px 34px -14px rgba(142,79,94,.75);padding:1.15rem 1.1rem;
+    position:relative;overflow:hidden;
+  }
+  a.featured .t{color:#fff;font-size:1.05rem;}
+  a.featured .s{color:rgba(255,255,255,.85);}
+  a.featured .free{
+    position:absolute;top:.7rem;right:.8rem;font-size:.6rem;letter-spacing:.16em;font-weight:700;
+    background:var(--gold);color:#3a2a10;padding:.2rem .5rem;border-radius:999px;text-transform:uppercase;
+  }
+  a.featured::before{content:"📚";position:absolute;font-size:5rem;right:-.6rem;bottom:-1.6rem;opacity:.14;}
+
+  @keyframes rise{to{opacity:1;transform:none;}}
+  .links a:nth-child(1){animation-delay:.05s;}
+  .links a:nth-child(2){animation-delay:.12s;}
+  .links a:nth-child(3){animation-delay:.19s;}
+  .links a:nth-child(4){animation-delay:.26s;}
+  .links a:nth-child(5){animation-delay:.33s;}
+  .links a:nth-child(6){animation-delay:.40s;}
+  .links a:nth-child(7){animation-delay:.47s;}
+  .links a:nth-child(8){animation-delay:.54s;}
+
+  footer{text-align:center;margin-top:2rem;font-size:.75rem;color:var(--muted);}
+  footer .threads{color:var(--rose-deep);text-decoration:none;font-weight:500;}
+</style>
+</head>
+<body>
+  <main class="hub">
+    <div class="head">
+      <div class="avatar" id="avatar">
+        <img src="andressa.jpeg" alt="Andressa Guimarães" onerror="document.getElementById('avatar').classList.add('noimg'); this.remove();" />
+      </div>
+      <div class="name">Andressa Guimarães</div>
+      <div class="role">Produtividade &amp; Propósito · Sócia @winner.ia</div>
+      <p class="tagline">“Sua rotina deve servir aos seus sonhos.”</p>
+    </div>
+
+    <nav class="links">
+      <a class="link featured" href="https://checklist-leitura.vercel.app/?utm_source=instagram&utm_medium=bio&utm_campaign=checklist_leitura" target="_blank" rel="noopener">
+        <span class="free">Grátis</span>
+        <div class="t">📚 Checklist: hábito da leitura em 7 dias</div>
+        <div class="s">Receba no e-mail + entre nas Focadas</div>
+      </a>
+
+      <a class="link" href="http://andressaguimaraes.com/?utm_source=instagram&utm_medium=bio&utm_campaign=metodo_rf" target="_blank" rel="noopener">
+        <div class="t">Meu método de produtividade e propósito</div>
+        <div class="s">Rotina Focada · andressaguimaraes.com</div>
+      </a>
+
+      <a class="link" href="https://www.winneria.com.br/" target="_blank" rel="noopener">
+        <div class="t">Minha empresa de IA e Produtividade para negócios</div>
+        <div class="s">winneria.com.br</div>
+      </a>
+
+      <a class="link" href="https://tally.so/r/Gxd4QZ" target="_blank" rel="noopener">
+        <div class="t">Aplicação para minha mentoria</div>
+        <div class="s">Inscreva-se agora</div>
+      </a>
+
+      <a class="link" href="https://www.youtube.com/@andressaguimaaraes" target="_blank" rel="noopener">
+        <div class="t">Meu canal no YouTube</div>
+        <div class="s">@andressaguimaaraes</div>
+      </a>
+
+      <a class="link" href="https://rotina.andressaguimaraes.com.br/" target="_blank" rel="noopener">
+        <div class="t">🧠 Desafio: Afirmações Poderosas</div>
+        <div class="s">Transforme sua rotina em 7 dias</div>
+      </a>
+
+      <a class="link" href="https://a.co/d/03rwBjxB" target="_blank" rel="noopener">
+        <div class="t">Meus livros favoritos</div>
+        <div class="s">Lista na Amazon</div>
+      </a>
+
+      <a class="link" href="https://open.spotify.com/playlist/33UZXSzIS4rntgdT8QnPHr?si=H6MtG8ytRgipyJfinJgWyA&pi=qewoBeONQKG1j" target="_blank" rel="noopener">
+        <div class="t">Playlist de foco</div>
+        <div class="s">Spotify</div>
+      </a>
+    </nav>
+
+    <footer>
+      © 2026 Andressa Guimarães · <a class="threads" href="https://www.threads.com/@andressaguimaaraes" target="_blank" rel="noopener">Threads</a>
+    </footer>
+  </main>
+</body>
+</html>
